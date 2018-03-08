@@ -187,6 +187,10 @@ namespace Hydra
         [JsonConstructor]
         public HydraNodeModel(IEnumerable<PortModel> inPorts, IEnumerable<PortModel> outPorts) : base(inPorts, outPorts)
         {
+            // TODO there is a bug in 2.0 that requires this but should be removed in 2.1
+            // See https://github.com/DynamoDS/Dynamo/blob/7659de0abe59c9f30c9b8db8944ad1c3663394ba/src/DynamoCore/Graph/Nodes/NodeModel.cs#L275
+            this.State = ElementState.Active;
+
             SubmitCommand = new DelegateCommand(SubmitData, CanSubmitData);
         }
         #endregion
