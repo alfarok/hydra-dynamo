@@ -1,7 +1,7 @@
 # Hydra-Dynamo
 [Hydra](https://github.com/HydraShare/hydra#hydra) is a web platform that allows users to share example files from [Dynamo](https://github.com/DynamoDS/Dynamo) directly to the [Hydra Web Repo](http://hydrashare.github.io/hydra/) using GitHub.  You can efficiently export your scripts to the Hydra repository using the Dynamo node for sharing and community interaction! There are a number of built in features to help organize, categorize, and preview your files online without having to download to make sure you are getting exactly what you expect.
 
-![Hydra Component](https://github.com/HydraShare/hydra-dynamo/blob/master/resources/Hydra_Node_Sample.jpg?raw=true)
+![Hydra Component](https://github.com/alfarok/hydra-dynamo/blob/master/resources/HydraViewExtension.JPG?raw=true)
 
 Hydra started at the [2015 AEC TECH Hackathon](http://aec-technology-hackathon-2015.devpost.com/) and was one of the two winners for best collaboration and opensource development. The project started by: [Chris](https://github.com/chriswmackey), [Keith](https://github.com/alfarok), [Matthew](https://github.com/mdahlhausen) and [Mostapha](https://github.com/mostapharoudsari). You can read the full story [here](https://github.com/HydraShare/hydra#hydra).
 
